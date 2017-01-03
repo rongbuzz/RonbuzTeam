@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084784149218",
+    "firebase_url": "https://ronbuz-team.firebaseio.com",
+    "project_id": "ronbuz-team",
+    "storage_bucket": "ronbuz-team.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084784149218:android:8cf8a8ee1fdb7707",
+        "android_client_info": {
+          "package_name": "com.example.user.ronbuzteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084784149218-nb2hlj9ad5rcgq5viqhu2gsmc5svnued.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.ronbuzteam",
+            "certificate_hash": "323DE782DBB0429EB2ECC3C62D267C4FF50ED11E"
+          }
+        },
+        {
+          "client_id": "1084784149218-kvq2guiui0c4qtensh8ssivp2h0odlq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3krf3xpaPpVmas1oxV-HrUWeZ2vwY0rI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084784149218-kvq2guiui0c4qtensh8ssivp2h0odlq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

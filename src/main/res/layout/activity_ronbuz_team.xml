@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ronbuz_team"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.ronbuzteam.RonbuzTeam">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/black"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Welcome to Visit  Ronbuz Studio Team "
+            android:textAlignment="center"
+            android:layout_width="200dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:layout_below="@+id/relativeLayout">
+
+        <Button
+            android:text="LOGIN"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginbutton"
+            android:background="@drawable/signingreenbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwardText"
+            android:background="@drawable/signininput"
+            android:hint="Passward"
+            android:textSize="14dp"
+            android:layout_above="@+id/loginbutton"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailtext"
+            android:hint="Email"
+            android:textSize="14dp"
+            android:background="@drawable/signininput"
+            android:layout_alignBottom="@+id/passwardText"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="49dp"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Please sign in with your provided passward and don’t forget to change you passward"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/emailtext"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

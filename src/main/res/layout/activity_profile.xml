@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.ronbuzteam.Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="150dp"
+        android:minHeight="172dp"
+        android:id="@+id/relativeLayout2"
+        android:fitsSystemWindows="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/black"
+            android:id="@+id/profileImg"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3" />
+
+        <ImageView
+            android:layout_width="80dp"
+            app:srcCompat="@drawable/filter"
+            android:id="@+id/imageView3"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:text="Profile Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/proName"
+            android:textSize="18sp"
+            android:textColor="#4f4f4f"
+            android:textStyle="bold"
+            android:layout_below="@+id/profileImg"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/chat"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/chatRoomButton"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:text="ChatRome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chatRoomButton"
+        android:layout_alignEnd="@+id/chatRoomButton"
+        android:layout_marginEnd="9dp"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>

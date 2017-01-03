@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        app:srcCompat="@drawable/black"
+        android:id="@+id/imageView2"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="Profile Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="80dp" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        app:srcCompat="@drawable/chat"
+        android:id="@+id/imageButton2"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
